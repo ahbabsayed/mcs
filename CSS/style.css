@@ -1,0 +1,96 @@
+/* by using Universel selector */
+
+* {
+  margin: 0%;
+  padding: 0%;
+  border: 0%;
+  outline: 0;
+  text-decoration: none;
+}
+/* by using Name selector */
+
+body {
+  background-color: black;
+}
+/* by using Id selector */
+
+#admin-box {
+  background-color: cyan;
+  color: black;
+  width: 50%;
+  margin: 10% auto ;
+  padding: 25px;
+  text-align: center;
+}
+/* by using Decendent selector */
+
+#admin-box h1 {
+  font-size: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+#admin-box img {
+  display: block;
+  text-align: center;
+  width: 75px;
+  margin: auto;
+}
+  /* by using Grouping selector */
+
+  input, label {
+    display: block;
+  }
+  form {
+    margin-top: 28px;
+    line-height: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  label {
+    line-height: 10px;
+    font-size: 20px;
+  }
+  input {
+    background-color: transparent;
+    border: 2px solid black;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+  }
+  /* by using Psudo Element selector  */
+
+  input::placeholder {
+    color: black;
+  }
+  /* by using Attribute selector */
+
+  input[type="submit"] {
+    width: 50%;
+    margin: 20 auto;
+    text-transform: uppercase;
+  }
+  /* by using psudo classes */
+
+  input[type="submit"]:hover{
+    background-color: darkred;
+    color: greenyellow;
+    transition: ease-in 0.8s;
+  }
+  /* by using Class selector */
+
+  .page {
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .page a {
+  text-transform: capitalize;
+  color: yellow;
+  }
+  .page a:hover {
+    color: whitesmoke;
+  }
+  .page a:active {
+    color: blue;
+  }
